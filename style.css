@@ -65,12 +65,16 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    width: calc(100% / 8);
+    /* width: calc(100% / 8); */
     
 }
 
-.cell-black {
-    background-color: black;
+.cell-red {
+    background-color: red;
+}
+
+.cell-green {
+    background-color: green;
 }
 
 /* FOOTER */
