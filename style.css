@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+/* PAGE FIX */
+
+
+
+/* HEADER */
+
+.top-page{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-side label {
+    font-weight: bold;
+}
+
+/* GRIGLIA */
+
+.grid-wrapper {
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cell {
+    aspect-ratio: 1 / 1;
+    border: 2px solid white;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: calc(100% / 8);
+    
+}
+
+.cell-black {
+    background-color: black;
+}
+
+/* FOOTER */
